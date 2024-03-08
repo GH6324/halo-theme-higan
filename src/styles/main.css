@@ -1587,12 +1587,11 @@ article header .postdate {
 
 article .content h2:before {
   position: absolute;
-  top: -0.25rem;
   left: -1rem;
   color: var(--color-accent-1);
   content: "#";
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: var(--text-h2);
 }
 
 article .content img,
